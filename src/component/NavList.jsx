@@ -26,7 +26,7 @@ const NavList = () => {
 
       {/* Logo */}
       <div className="flex justify-center mb-2 mt-2">
-        <img className="h-24" src="/public/image/soft.PNG" alt="Logo" />
+        <img className="h-24" src="/image/soft.PNG" alt="Logo" />
       </div>
 
       {/* Main Navbar */}
