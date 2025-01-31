@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className="container mx-auto flex justify-between items-center py-4 px-6">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <img src="/public/image/soft.PNG" alt="TSC Logo" className="h-18" />
+            <img src="/image/soft.PNG" alt="TSC Logo" className="h-18" />
           </div>
 
           {/* Menu Items */}
