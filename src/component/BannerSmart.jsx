@@ -10,7 +10,7 @@ const BannerSmart = () => {
                 <p className="text-[#001194] md:text-[20px] text-[16px] px-20">Design your future Specific, Measurable, Achievable, Relevant and Time-bound academic & career goals with the expertise of  our expereinced student consultants.</p>
               </div>
               <div className="md:flex  md:text-start text-center justify-center gap-44 items-center mt-20 ">
-                  <div className="flex justify-center"><img className=" md:h-[500px]  h-[250px]" src="../../public/image/admission.webp" alt="" /></div>
+                  <div className="flex justify-center"><img className=" md:h-[500px]  h-[250px]" src="/image/admission.webp" alt="" /></div>
                   <div className="md:w-[25%] ">
                       <p className="md:text-2xl  text-xl text-[#212529] font-semibold mt-20 md:mt-32">Have you made your study  decision?</p>
                       <button className="bg-[#012d6e] text-white text-[16px] px-4  py-2 rounded shadow-2xl mt-4 cursor-pointer ">Send Admission qurey</button>
