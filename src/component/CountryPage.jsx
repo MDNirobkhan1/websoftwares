@@ -50,7 +50,7 @@ const CountryPage = () => {
           </div>
         )}
       </div>
-        <hr className="text-[#363e47] md:w-[75%] mt-8 w-[95%]  mx-auto  md:px-10" />
+        <hr className="text-[#363e47] md:w-[85%] mt-8 w-[95%]  mx-auto  md:px-10" />
         
         <div className="mt-8 ">
           <div>
