@@ -155,7 +155,7 @@ const BannerSmart = () => {
                     >
                         <div> 
                             
-                            <div className="text-white flex items-center gap-2 px-2 py-3 bg-top ">
+                            <div className="text-white flex items-center gap-5 px-2 py-3 bg-top ">
                                 <img className="h-10 w-10 rounded-full" src="/image/logo tsc.png" alt="" />
                                 <p className="text-[19px] cursor-pointer">How TSC Mode My Visa Pr..</p>
                                 <p class="relative group inline-block">
@@ -192,7 +192,7 @@ const BannerSmart = () => {
                     >
                         <div> 
                             
-                            <div className="text-white flex items-center gap-2 px-2 py-3 bg-top ">
+                            <div className="text-white flex items-center gap-5 px-2 py-3 bg-top ">
                                 <img className="h-10 w-10 rounded-full" src="/image/logo tsc.png" alt="" />
                                 <p className="text-[19px] cursor-pointer">How TSC Mode My Visa Pr..</p>
                                 <p class="relative group inline-block">
@@ -229,7 +229,7 @@ const BannerSmart = () => {
                     >
                         <div> 
                             
-                            <div className="text-white flex items-center gap-2 px-2 py-3 bg-top ">
+                            <div className="text-white flex items-center gap-5 px-2 py-3 bg-top ">
                                 <img className="h-10 w-10 rounded-full" src="/image/logo tsc.png" alt="" />
                                 <p className="text-[19px] cursor-pointer">How TSC Mode My Visa Pr..</p>
                                 <p class="relative group inline-block">
