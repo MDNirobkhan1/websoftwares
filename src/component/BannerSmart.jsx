@@ -343,12 +343,12 @@ const BannerSmart = () => {
                     <div >
                         <h1 className="md:text-3xl text-2xl text-red-500"><span className="text-[#001059]">Education</span> Blogs</h1>
                         <hr  className="mb-3 mt-2"/>
-                        <div className="bg-white w-[400px]  p-2">
+                        <div className="bg-white md:w-[400px]  p-2">
                             <h1 className="text-[#001059] md:text-xl ">Why studying in the UK is better than studying in Pakistan</h1>
                             <p className="text-red-500 md:mt-0 mt-3">01 Aug 2023</p>
                             <h1 className="text-[#828282] md:mt-0 mt-1 text-sm">Studying in the UK can be an enthralling experience, embedded in promising possibilities and opportunities for your future. The enrollments of Pakistani student</h1>
                         </div>
-                        <div className="bg-white w-[400px] p-2 mt-4">
+                        <div className="bg-white md:w-[400px] p-2 mt-4">
                             <h1 className="text-[#001059] md:text-xl">Why studying in the UK is better than studying in Pakistan</h1>
                             <p className="text-red-500 md:mt-0 mt-3">25 Aug 2023</p>
                             <h1 className="text-[#828282] md:mt-0 mt-1 text-sm">Studying in the UK can be an enthralling experience, embedded in promising possibilities and opportunities for your future. The enrollments of Pakistani student</h1>
@@ -358,12 +358,12 @@ const BannerSmart = () => {
                     <div >
                         <h1 className="text-2xl text-red-500 md:text-3xl"><span className="text-[#001059]">Latest </span> News</h1>
                         <hr className="mb-3 mt-2" />
-                        <div className="bg-white w-[400px] p-2">
+                        <div className="bg-white md:w-[400px] p-2">
                             <h1 className="text-[#001059] md:text-xl">Students and youth unite to launch new party ahead of elections in Bangladesh</h1>
                             <p className="text-red-500 md:mt-0 mt-3">01 Aug 2023</p>
                             <h1 className="text-[#828282] md:mt-0 mt-1 text-sm">Studying in the UK can be an enthralling experience, embedded in promising possibilities and opportunities for your future. The enrollments of Pakistani student</h1>
                         </div>
-                        <div className="bg-white w-[400px] p-2 mt-4">
+                        <div className="bg-white md:w-[400px] p-2 mt-4">
                             <h1 className="text-[#001059] md:text-xl">Why studying in the UK is better than studying in Pakistan</h1>
                             <p className="text-red-500 md:mt-0 mt-3">25 Aug 2023</p>
                             <h1 className="text-[#828282] md:mt-0 mt-1 text-sm">Studying in the UK can be an enthralling experience, embedded in promising possibilities and opportunities for your future. The enrollments of Pakistani student</h1>
@@ -373,12 +373,12 @@ const BannerSmart = () => {
                     <div >
                         <h1 className="md:text-3xl text-2xl text-red-500"><span className="text-[#001059]">Study </span> Guides</h1>
                         <hr className="mb-3 mt-2" />
-                        <div className="bg-white w-[400px] p-2">
+                        <div className="bg-white md:w-[400px] p-2">
                             <h1 className="text-[#001059] md:text-xl">Apply Why studying in the UK is better than studying in Pakistan</h1>
                             <p className="text-red-500 md:mt-0 mt-3">01 Aug 2023</p>
                             <h1 className="text-[#828282] md:mt-0 mt-1 text-sm">Studying in the UK can be an enthralling experience, embedded in promising possibilities and opportunities for your future. The enrollments of Pakistani student</h1>
                         </div>
-                        <div className="bg-white w-[400px] p-2 mt-4">
+                        <div className="bg-white md:w-[400px] p-2 mt-4">
                             <h1 className="text-[#001059] md:text-xl">Why studying in the UK is better than studying in Pakistan</h1>
                             <p className="text-red-500 md:mt-0 mt-3">25 Aug 2023</p>
                             <h1 className="text-[#828282]  md:mt-0 mt-1 text-sm">Studying in the UK can be an enthralling experience, embedded in promising possibilities and opportunities for your future. The enrollments of Pakistani student</h1>
