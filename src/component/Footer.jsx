@@ -2,7 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-[#222e3d] text-gray-300">
+    <>
+      <div className="bg-[#222e3d] text-gray-300">
       <footer className="container mx-auto p-10">
         <div className=" text-center  grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6">
           <nav className="cursor-pointer">
@@ -54,7 +55,16 @@ const Footer = () => {
           </nav>
         </div>
       </footer>
-    </div>
+      
+      </div>
+      
+      <div className="bg-[#131921] py-4 ">
+        <h1 className="text-center text-white">
+          © 2025 Total Student Care (TSC). All rights reserved. | Developed By
+          Bigpage
+        </h1>
+      </div>
+    </>
   );
 };
 

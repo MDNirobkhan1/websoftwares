@@ -40,7 +40,7 @@ const CoursesItem = () => {
   return (
     <div className="md:flex gap-4">
       {/* Sidebar for Categories */}
-      <div className="md:mt-36 mt-7 w-0 md:w-[20%]">
+      <div className="md:mt-36 mt-7 w-full md:w-[20%]">
         <div className="shadow-md bg-[#f0f0f0] w-[380px] md:w-[100%] py-2 md:px-2 border-b border-gray-300">
           <div
             onClick={() => setIsOpen(!isOpen)}
