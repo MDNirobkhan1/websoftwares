@@ -26,7 +26,7 @@ const CountryPage = () => {
   return (
     <>
       {/* country list  */}
-    <div className=" bg-[#222e3d] md:h-[770px] h-[1320px] ">
+    <div className=" bg-[#222e3d] md:h-[600px] h-[1320px] ">
       <div className="pt-10">
         <h1 className="text-4xl   font-bold text-white text-center">
           UK study entry from your country
