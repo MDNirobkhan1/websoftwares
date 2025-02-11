@@ -15,23 +15,12 @@ const CountryPage = () => {
     { image: "/flag/11.png", name: "Indonesia" },
     { image: "/flag/12.png", name: "Saudi Arabia" },
     { image: "/flag/13.png", name: "South Africa" },
-    { image: "/flag/14.png", name: "South Korea" },
-    { image: "/flag/15.png", name: "Philippines" },
-    { image: "/flag/16.png", name: "USA" },
-    { image: "/flag/17.png", name: "Turkey" },
-    { image: "/flag/18.png", name: "Afghanistan" },
-    { image: "/flag/19.png", name: "China" },
-    { image: "/flag/20.png", name: "Egypt" },
-    { image: "/flag/21.png", name: "Myanmar" },
-    { image: "/flag/22.png", name: "Vietnam" },
-    { image: "/flag/23.png", name: "Japan" },
-    { image: "/flag/24.png", name: "Uzbekistan" },
-    { image: "/flag/25.png", name: "Thailand" },
-    { image: "/flag/26.png", name: "Qatar" },
-    { image: "/flag/27.png", name: "Kuwait" },
-    { image: "/flag/28.png", name: "Germany" },
-    { image: "/flag/29.png", name: "Algeria" },
-    { image: "/flag/30.png", name: "Mauritius" }
+    { image: "/flag/14.jpg", name: "South Korea" },
+    { image: "/flag/15.webp", name: "Philippines" },
+    { image: "/flag/16.webp", name: "USA" },
+    { image: "/flag/17.webp", name: "Turkey" },
+    { image: "/flag/18.webp", name: "Afghanistan" },
+    
   ];
 
   return (
@@ -47,13 +36,13 @@ const CountryPage = () => {
           benefits, and visa.
         </p>
       </div>
-      <div className="mt-14 w-[80%]  md:px-10 px-4 md:mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+      <div className="mt-14 w-[90%]  md:px-10 px-4 md:mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
         {items.map((item, index) =>
-          <div key={index} className="flex   md:items-center gap-4 md:p-2 ">
+          <div key={index} className="flex  md:items-center gap-4 p-1">
             <img
               src={item.image}
               alt={item.name}
-              className="w-9 h-6 object-cover "
+              className="w-10 h-6 object-cover "
             />
             <p className="text-white text-sm font-medium">
               {item.name}
