@@ -40,11 +40,11 @@ const CoursesItem = () => {
   return (
     <div className="md:flex gap-4">
       {/* Sidebar for Categories */}
-      <div className="md:mt-36 mt-7 w-full md:w-[20%]">
-        <div className="shadow-md bg-[#f0f0f0] w-[380px] md:w-[100%] py-2 md:px-2 border-b border-gray-300">
+      <div className="md:mt-36 mt-7  w-full md:w-[20%] ">
+        <div className="shadow-md bg-[#f0f0f0] w-[367px]  md:w-[100%] py-2   md:px-2 border-b border-gray-300">
           <div
             onClick={() => setIsOpen(!isOpen)}
-            className="flex bg-white rounded-full cursor-pointer shadow-lg h-10 px-2 items-center justify-between w-[100%]"
+            className="flex bg-white rounded-full cursor-pointer shadow-lg h-10 px-2 md:px-2 items-center justify-between w-[100%]"
           >
             <h1 className="text-xl">Courses Category</h1>
             <i className="zmdi zmdi-chevron-down mr-2 cursor-pointer" />
@@ -117,7 +117,7 @@ const CoursesItem = () => {
       {/* Table Section */}
       
       <div className="md:mt-[-15px] mt-10 w-0 md:w-[80%]">
-         <div className="  bg-[#ababab] flex  mt-16 w-[380px]  md:w-[700px]  p-4 ">
+         <div className="  bg-[#ababab] flex  mt-16 w-[367px]  md:w-[700px]  p-4 ">
                 <input type="text" className="bg-white p-2 rounded-l w-[620px] " name="" id="" placeholder="Find Courses Here.." />
                 <button className="bg-[#db3027] p-2 px-4 text-white cursor-pointer rounded-r-sm hover:text-black">SEARCH</button>
         </div>
