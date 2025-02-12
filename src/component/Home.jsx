@@ -30,7 +30,7 @@ const Home = () => {
 
       <div className="mt-[280px] md:mt-0">
         <div
-          className="md:h-[450px] h-[450px] bg-cover bg-center "
+          className="md:h-[460px] h-[450px] bg-cover bg-center "
           style={{
             backgroundImage: "url('https://i.ibb.co/pj7Znx6t/soft1.webp')",
             

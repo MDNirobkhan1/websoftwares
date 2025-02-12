@@ -67,9 +67,9 @@ const NavList = () => {
       <div
         className={`fixed top-0  left-0 w-full bg-white shadow-md z-40 transition-all duration-300 px-5 cursor-pointer  ${scrolling
           ? "py-2 mt-0"
-          : "py-4 mt-8"}`}
+          : "py-4 mt-16"}`}
       >
-        <div className="mt-10">
+        <div className="">
           <div
             className={` flex justify-center h-${scrolling
               ? "12"
