@@ -111,7 +111,7 @@ const CoursesItem = () => {
           </motion.div>
         )}
         <div className="mt-4 ">
-          <img className="w-[367px] md:w-[20%]" src="/icon/11.PNG" alt="" />
+          <img className="w-[367px]   " src="/icon/11.PNG" alt="" />
         </div>
       </div>
       
