@@ -19,7 +19,7 @@ const Admissionquery = () => {
         <div className="mt-[280px] k md:mt-0 mb-4">
               {/* image part */}
             <div
-            className="md:h-[440px] h-[400px] bg-cover  bg-center bg-fixed"
+            className="md:h-[440px] h-[400px] bg-gray-500 bg-cover bg-blend-multiply  bg-center bg-fixed"
             style={{
                 backgroundImage: "url('https://i.ibb.co.com/pvR9vrns/pp.jpg' )",
                 
