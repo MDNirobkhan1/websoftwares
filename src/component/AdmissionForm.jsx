@@ -9,14 +9,14 @@ const AdmissionForm = () => {
   return (
       <>
           {/* navbar  */}
-    <div>
+      <div>
      <div className="hidden  sm:block">
         <Navbar />
       </div>
       <div className="block sm:hidden">
         <NavList />
       </div>
-    </div>
+       </div>
           
           {/* banner  */}
     <div className="mt-[280px] md:mt-0">
@@ -47,16 +47,26 @@ const AdmissionForm = () => {
                       <h1 className="md:text-3xl text-2xl text-center  font-bold text-[#002e6e]">Free test for university offers</h1> 
                       <div className="md:mt-0 mt-4 "><img src="/image/Capture.PNG" alt="" /></div>
                   </div>
-                  {/* <div>
-                      <div>
-                          <h1>Check your admission eligibility assessed immediately by qualified university admission advisers</h1>
-                          <div>
-                              <div>ami</div>
-                              <div>ami</div>
-                              <div>ami</div>
+                  <div>
+                        <div className="mt-14">
+                          <h1 className="text-center font-bold text-[#212529] text-xl">Check your admission eligibility assessed immediately by qualified university admission advisers</h1>
+                          <div className="md:flex items-center gap-6 justify-center mt-10 md:px-0 px-3">
+                              <div className="bg-[#e32040] text-center md:w-[330px] py-4">
+                                  <img className="flex mx-auto w-8 h-6 rounded mt-2" src="/icon/10.PNG" alt="" />
+                                  <p className="text-white font-bold text-xl mt-4">100% visa success</p>
+                              </div>
+                              <div className="bg-[#e32040] text-center md:w-[330px] py-4">
+                                  <p className="flex mx-auto text-white w-8 h-6 rounded mt-2"><i class="zmdi zmdi-account-calendar zmdi-hc-2x"></i></p>
+                                  <p className="text-white font-bold text-xl mt-4">15+ years’ experience</p>
+                              </div>
+                              <div className="bg-[#e32040] text-center md:w-[330px] py-4">
+                                  <p className="flex mx-auto text-white w-8 h-6 rounded mt-2"><i class="zmdi zmdi-star-outline zmdi-hc-2x"></i></p>
+                                  <p className="text-white font-bold text-xl mt-4">95%+ 5 star reviews</p>
+                              </div>
                           </div>
+                          <h1 className="text-center  text-[#3e4045] text-[20px] md:px-24 px2 mt-24 md:mb-0 mb-6">Take a minute to check your admission eligibility for study in the UK – one of our university admission officers will contact you shortly to provide you admission advice and support.</h1>
                       </div>
-                  </div> */}
+                  </div>
               </div>
         <div className="flex flex-col md:flex-row gap-6 md:px-24 px-4 py-6 border-[#ccd2d9]">
             {/* Admission Form */}
