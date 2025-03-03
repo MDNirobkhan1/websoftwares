@@ -118,7 +118,9 @@ const Navbar = () => {
       {/* Loading Indicator */}
       {loading &&
         <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-900 opacity-60 z-50">
-          <div className="text-white text-lg font-semibold">Loading...</div>
+          <div className="text-white text-lg font-semibold">
+            <span className="loading loading-bars loading-xl  " />
+          </div>
         </div>}
 
       {/* Push content down to avoid overlap */}
